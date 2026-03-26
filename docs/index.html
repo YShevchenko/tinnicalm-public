@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TinniCalm - Find Your Frequency. Find Your Silence.</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: #1A1045;
+    color: #E0D8F0;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #B388FF; text-decoration: none; }
+  a:hover { color: #D1C4E9; }
+
+  .hero {
+    text-align: center;
+    padding: 80px 24px 60px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .hero .tagline {
+    font-size: 1.25rem;
+    color: #B388FF;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  .hero .description {
+    font-size: 1.05rem;
+    color: #C5B8DB;
+    max-width: 560px;
+    margin: 0 auto 40px;
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(124,77,255,0.15);
+    border: 1px solid rgba(124,77,255,0.3);
+    color: #D1C4E9;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 48px;
+  }
+
+  .features {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+  .feature-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(124,77,255,0.15);
+    border-radius: 16px;
+    padding: 28px 24px;
+  }
+  .feature-card h3 {
+    color: #7C4DFF;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .feature-card p {
+    font-size: 0.95rem;
+    color: #B0A3C8;
+  }
+
+  .section {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .section h2 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .section p {
+    color: #B0A3C8;
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .pricing-box {
+    display: inline-block;
+    background: rgba(124,77,255,0.1);
+    border: 1px solid rgba(124,77,255,0.3);
+    border-radius: 16px;
+    padding: 24px 40px;
+    margin-top: 8px;
+  }
+  .pricing-box .free { font-size: 1.4rem; color: #fff; font-weight: 600; }
+  .pricing-box .premium { font-size: 0.95rem; color: #B388FF; margin-top: 4px; }
+
+  .divider {
+    width: 60px;
+    height: 2px;
+    background: #7C4DFF;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 24px;
+    border-top: 1px solid rgba(124,77,255,0.12);
+    font-size: 0.85rem;
+    color: #7B6F96;
+  }
+  footer nav { margin-bottom: 16px; }
+  footer nav a { margin: 0 14px; font-size: 0.9rem; }
+
+  .disclaimer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6A5E82;
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 2.2rem; }
+    .hero .tagline { font-size: 1.05rem; }
+    .features { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>TinniCalm</h1>
+  <p class="tagline">Find your frequency. Find your silence.</p>
+  <span class="badge">Health &amp; Fitness</span>
+  <p class="description">
+    A tinnitus relief app with a customizable sound mixer, 30+ therapeutic sounds across 6 categories,
+    a frequency finder for notch therapy, and built-in presets designed to help you relax, focus, and sleep.
+  </p>
+</div>
+
+<div class="features">
+  <div class="feature-card">
+    <h3>Sound Mixer</h3>
+    <p>Blend 30+ therapeutic sounds across 6 categories into your perfect soundscape. Full volume control for every layer.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Built-in Presets</h3>
+    <p>Start instantly with curated presets like Rainy Night, Ocean Calm, and Deep Focus &mdash; crafted for relief and relaxation.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Frequency Finder</h3>
+    <p>Identify your tinnitus frequency and use notch therapy techniques to target the sounds that bother you most.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Sleep Timer</h3>
+    <p>Set a timer with gradual fade-out so sounds ease away naturally as you fall asleep.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Learn About Tinnitus</h3>
+    <p>Educational articles explaining tinnitus causes, coping strategies, and the science behind sound therapy.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Private by Design</h3>
+    <p>Zero data collection. No accounts, no analytics, no ads. Everything stays on your device.</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="divider"></div>
+  <h2>Simple Pricing</h2>
+  <p>Download free. Unlock everything once.</p>
+  <div class="pricing-box">
+    <div class="free">Free to Download</div>
+    <div class="premium">$9.99 one-time premium unlock</div>
+  </div>
+</div>
+
+<p class="disclaimer">
+  TinniCalm is not a medical device. It does not diagnose, treat, cure, or prevent any medical condition.
+  Consult a healthcare professional for medical advice.
+</p>
+
+<footer>
+  <nav>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:tinnicalm@support.app">Contact</a>
+  </nav>
+  <p>&copy; 2026 Yaroslav Shevchenko. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
